@@ -1,0 +1,36 @@
+---
+people:
+- Id: 1 # indicate a collection composed of scaler value
+  Code: 128
+  Anumber: 21
+  AFloat: 12.5
+  Astring: Jesus is King of King
+           
+           This is another line
+  AQuotedString: 'Quote is perfectly acceptable. \nThis is a new line made out of the escape character'
+  FirstName: Joe
+  LastName: Ed.
+  Email: krystophee@aol.com
+  Active: true
+- Id: 2
+  Code: 121
+  FirstName: Richard
+  LastName: Lauder
+  Email: rlauder@france.fr
+  Active: true
+- Id: 3
+  Code: 127
+  FirstName: Luc
+  LastName: Joel
+  Email: ljoel@aol.com
+  Active: true
+- Id: 4
+  Code: 126
+  FirstName: Gildas
+  LastName: Harley
+  Email: gharley@aol.com
+  Active: true
+... # this indicate the end of the document
+--- # this is the start of a new document in YAML
+item1: item1value
+item2: item2value
